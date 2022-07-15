@@ -1,6 +1,10 @@
 import "./style.css";
+import "./components/TheMainCard.js";
+import "./components/TheNavBar.js";
+import "./components/TheSearchBar.js";
 
 document.querySelector("#app").innerHTML = `
-  <h1>Hello Rachel Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+<div class="container">
+
+</div>
 `;
