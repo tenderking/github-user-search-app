@@ -5,12 +5,12 @@ import "./components/TheNavBar.js";
 import "./components/TheSearchBar.js";
 
 document.querySelector("#app").innerHTML = `
-<div class="main-container">
+<div class="main-container ">
 <div id="card-container">
   <div class="header-container">
-    <img src="./assets/avatar.svg" alt="avatar" />
+    <img src="./assets/avatar.svg" alt="avatar" class="avatar" />
     <div class="header-details">
-      <h1>The Octocat</h1>
+      <h1 class="user-title">The Octocat</h1>
       <h3 class="username">@octocat</h3>
       <p class="reg-date">Joined 25 Jan 2011</p>
     </div>
@@ -34,20 +34,20 @@ document.querySelector("#app").innerHTML = `
     </div>
   </div>
   <div class="socials">
-    <div class="location">
-      <img src="./assets/icon-location.svg" alt="location-icon" />
+    <div class="location socials__info">
+      <img src="./assets/icon-location.svg" alt="location-icon"  width="13.75px" height="20px"/>
       <p>San Francisco</p>
     </div>
-    <div class="website">
-      <img src="./assets/icon-website.svg" alt="website-icon" />
+    <div class="website socials__info">
+      <img src="./assets/icon-website.svg" alt="website-icon"   width="20px" height="20px"/>
       <a href="#">github</a>
     </div>
-    <div class="twitter">
-      <img src="./assets/icon-twitter.svg" alt="twitter-icon" />
+    <div class="twitter socials__info">
+      <img src="./assets/icon-twitter.svg" alt="twitter-icon"   width="20px" height="16.25px"/>
       <a href="#">twitter</a>
     </div>
-    <div class="company">
-      <img src="./assets/icon-company.svg" alt="company-icon" />
+    <div class="company socials__info">
+      <img src="./assets/icon-company.svg" alt="company-icon" width="20px" height="20px" />
       <p>@company-name</p>
     </div>
   </div>
