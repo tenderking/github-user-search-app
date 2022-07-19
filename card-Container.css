@@ -1,0 +1,11 @@
+#card-container {
+  border: 3px solid black;
+}
+
+.header-container {
+  display: flex;
+}
+
+#follower-container {
+  display: flex;
+}

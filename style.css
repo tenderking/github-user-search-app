@@ -1,59 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 
-:root {
-	--background-dark-400: #1e2a47;
-	--background-dark-600: #141d2f;
-	--background-light-400: #fefefe;
-	--background-light-600: #f6f8ff;
-	--dark-theme: #fff;
-	--light-theme-400: #697c9a;
-	--light-theme-600: #4b6a9b;
-	--light-theme-800: #2b3442;
-	--dark-toggle-inactive: #fff;
-	--dark-toogle-active: #90a4d4;
-	--color-blue-600: #0079ff;
-	--color-danger: #f74646;
-	--color-blue-400: #60abff;
+root {
+  --background-dark-400: #1e2a47;
+  --background-dark-600: #141d2f;
+  --background-light-400: #fefefe;
+  --background-light-600: #f6f8ff;
+  --dark-theme: #fff;
+  --light-theme-400: #697c9a;
+  --light-theme-600: #4b6a9b;
+  --light-theme-800: #2b3442;
+  --dark-toggle-inactive: #fff;
+  --dark-toogle-active: #90a4d4;
+  --color-blue-600: #0079ff;
+  --color-danger: #f74646;
+  --color-blue-400: #60abff;
 }
 .light-theme {
-	--background-1: var(--background-light-600);
-	--background-2: var(--background-light-400);
-	--font-800: var(--light-theme-800);
-	--font-600: var(--light-theme-600);
-	--font-400: var(--light-theme-400);
-	--toogle-inactive: var(--light-theme-400);
-	--toogle-active: var(--light-theme-800);
+  --background-1: var(--background-light-600);
+  --background-2: var(--background-light-400);
+  --font-800: var(--light-theme-800);
+  --font-600: var(--light-theme-600);
+  --font-400: var(--light-theme-400);
+  --toogle-inactive: var(--light-theme-400);
+  --toogle-active: var(--light-theme-800);
 }
 .dark-theme {
-	--background-1: var(--background-dark-600);
-	--background-2: var(--background-dark-400);
-	--font-800: var(--font-dark-theme);
-	--font-600: var(--font-dark-theme);
-	--font-400: var(--font-dark-theme);
-	--toogle-inactive: var(--dark-toggle-inactive);
-	--toogle-active: var(--dark-toogle-active);
+  --background-1: var(--background-dark-600);
+  --background-2: var(--background-dark-400);
+  --font-800: var(--font-dark-theme);
+  --font-600: var(--font-dark-theme);
+  --font-400: var(--font-dark-theme);
+  --toogle-inactive: var(--dark-toggle-inactive);
+  --toogle-active: var(--dark-toogle-active);
 }
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 html,
 body {
-	height: 100%;
+  height: 100%;
 }
 body {
-	-webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  line-height: 1.7rem;
 }
 
 input,
 button,
 textarea,
 select {
-	font: inherit;
+  font: inherit;
 }
 p,
 h1,
@@ -62,28 +64,48 @@ h3,
 h4,
 h5,
 h6 {
-	overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
+
+h1 {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+}
+h2 {
+  font-size: 1.46rem;
+  line-height: 2.2rem;
+}
+h3 {
+  font-size: 1.07rem;
+  line-height: 1.6rem;
+  font-weight: normal;
+}
+h4 {
+  font-size: 0.87rem;
+  line-height: 1.3rem;
+  font-weight: normal;
+}
+
 #root,
 #__next {
-	isolation: isolate;
+  isolation: isolate;
 }
 
 #app {
-	font-family: "Space Mono", monospace;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
-	color: #2c3e50;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 15px;
+  font-family: "Space Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
 }
 
-.container {
+/* .container {
 	width: 100px;
 	height: 50px;
 	border: 1px solid black;
-}
+} */
