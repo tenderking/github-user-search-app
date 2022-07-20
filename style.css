@@ -57,20 +57,7 @@ textarea,
 select {
 	font: inherit;
 }
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	overflow-wrap: break-word;
-}
 
-.user-title {
-	font-size: 1.7rem;
-	line-height: 2.5rem;
-}
 h2 {
 	font-size: 1.46rem;
 	line-height: 2.2rem;
