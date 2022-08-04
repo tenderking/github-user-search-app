@@ -75,6 +75,8 @@ template.innerHTML = `
 				</div>
 			</div>
 		`;
+
+// this is  a custom element
 class TheMainCard extends HTMLElement {
 	constructor() {
 		// Always call super first in constructor
