@@ -27,9 +27,9 @@
 .dark-theme {
 	--background-1: var(--background-dark-600);
 	--background-2: var(--background-dark-400);
-	--font-800: var(--font-dark-theme);
-	--font-600: var(--font-dark-theme);
-	--font-400: var(--font-dark-theme);
+	--font-800: var(--dark-theme);
+	--font-600: var(--dark-theme);
+	--font-400: var(--dark-theme);
 	--toogle-inactive: var(--dark-toggle-inactive);
 	--toogle-active: var(--dark-toogle-active);
 }
@@ -57,10 +57,13 @@ textarea,
 select {
 	font: inherit;
 }
-
+h1 {
+	color: var(--font-800);
+}
 h2 {
 	font-size: 1.46rem;
 	line-height: 2.2rem;
+	color: var(--font-800);
 }
 h3 {
 	font-size: 1.07rem;
@@ -71,6 +74,22 @@ h4 {
 	font-size: 0.87rem;
 	line-height: 1.3rem;
 	font-weight: normal;
+	color: var(--font-600);
+}
+p {
+	color: var(--font-400);
+}
+a:link {
+	color: var(--font-600);
+}
+input {
+	background-color: var(--background-2);
+	color: var(--font-400);
+}
+
+/* visited link */
+a:visited {
+	color: var(--font-600);
 }
 
 #root,
@@ -82,7 +101,7 @@ h4 {
 	font-family: "Space Mono", monospace;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #2c3e50;
+
 	height: 100vh;
 	display: flex;
 	justify-content: center;

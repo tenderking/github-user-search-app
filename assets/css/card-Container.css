@@ -32,6 +32,10 @@
 	flex-direction: column;
 	gap: 10px;
 }
+.company > * {
+	color: var(--font-600);
+}
+
 .socials__info {
 	display: flex;
 	gap: 24px;
@@ -65,6 +69,7 @@
 		grid-template-columns: repeat(4, auto);
 		grid-template-rows: repeat(5, auto);
 		grid-auto-flow: dense;
+		padding: 3rem;
 	}
 	.header-container {
 		grid-column: 1/-1;

@@ -1,0 +1,18 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-block: 2rem;
+}
+.toggle-btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.hidden {
+	display: none;
+}
