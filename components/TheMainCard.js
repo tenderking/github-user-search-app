@@ -12,7 +12,7 @@ template.innerHTML = `
 						<p class="reg-date">Joined 25 Jan 2011</p>
 					</div>
 				</div>
-				<p class="card-text">
+				<p class="card-text bio">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
 					officia est odio qui, sit vel sint.
 				</p>
@@ -20,15 +20,15 @@ template.innerHTML = `
 				<div id="follower-container">
 					<div class="repos">
 						<h4>Repos</h4>
-						<h2>8</h2>
+						<h2 class="repo-count">8</h2>
 					</div>
 					<div class="followers">
-						<h4>Followers</h4>
-						<h2>3938</h2>
+						<h4 >Followers</h4>
+						<h2 class="follower-count">3938</h2>
 					</div>
 					<div class="following">
 						<h4>Following</h4>
-						<h2>9</h2>
+						<h2 class="following-count">9</h2>
 					</div>
 				</div>
 
@@ -40,7 +40,7 @@ template.innerHTML = `
 							width="13.75px"
 							height="20px"
 						/>
-						<p>San Francisco</p>
+						<p class="location-text">Location</p>
 					</div>
 
 					<div class="website socials__info">
@@ -50,7 +50,7 @@ template.innerHTML = `
 							width="20px"
 							height="20px"
 						/>
-						<a href="#">github</a>
+						<a  id="github-link" href="#">github</a>
 					</div>
 
 					<div class="twitter socials__info">
@@ -60,7 +60,7 @@ template.innerHTML = `
 							width="20px"
 							height="16.25px"
 						/>
-						<a href="#">twitter</a>
+						<a   id="twitter-link" href="#">twitter</a>
 					</div>
 
 					<div class="company socials__info">
@@ -70,7 +70,7 @@ template.innerHTML = `
 							width="20px"
 							height="20px"
 						/>
-						<p>@company-name</p>
+						<p class"company-name">@company-name</p>
 					</div>
 				</div>
 			</div>

@@ -3,7 +3,7 @@ template.innerHTML = `
 <nav>
   <h1 class="logo">devfinder</h1>  
   <div id="toggle-btn" class="toggle-btn" >
-    <p id="toggle-text"> </p>
+    <p id="toggle-text"> Dark</p>
     <img
 							src="./assets/icon-moon.svg"
 							alt="moon-icon"

@@ -1,0 +1,6 @@
+
+GET https://api.github.com/octocat/search
+
+###
+GET   https://api.github.com/users/api.github.com/octocat
+Content-Type: application/json

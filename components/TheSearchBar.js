@@ -7,8 +7,9 @@ alt="company-icon"
 width="20px"
 height="20px"
 />
-<input type="text" placeholder="Search GitHub username..." class="search-input" />
-<p class="on-error">No results</p>
+<input type="text" placeholder="Search GitHub username..." class="search-input" id="search-input" />
+<p id="on-error" class="on-error" >No results</p>
+<p id="on-empty" class="on-error" >Type Username</p>
 <button class="btn btn-primary">
 Search
 </button>

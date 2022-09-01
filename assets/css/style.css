@@ -106,7 +106,7 @@ a:visited {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-radius: 15px;
+
 	background-color: var(--background-1);
 }
 
