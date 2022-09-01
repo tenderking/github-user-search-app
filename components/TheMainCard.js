@@ -1,8 +1,14 @@
+import avatar from "../assets/avatar.svg";
+import location from "../assets/icon-location.svg";
+import website from "../assets/icon-website.svg";
+import twitter from "../assets/icon-twitter.svg";
+import company from "../assets/icon-company.svg";
+
 const template = document.createElement("template");
 template.innerHTML = `
 <div id="card-container">
 				<div class="header-container">
-					<img src="/avatar.svg" alt="avatar" id="avatar" class="avatar" />
+					<img src=${avatar} alt="avatar" id="avatar" class="avatar" />
 					<div class="header-details">
 						<div class="user-details">
 							<h1 class="user-title">The Octocat</h1>
@@ -35,7 +41,7 @@ template.innerHTML = `
 				<div class="socials">
 					<div class="location socials__info">
 						<img
-							src="/icon-location.svg"
+							src=${location}
 							alt="location-icon"
 							width="13.75px"
 							height="20px"
@@ -45,7 +51,7 @@ template.innerHTML = `
 
 					<div class="website socials__info">
 						<img
-							src="/icon-website.svg"
+							src=${website}
 							alt="website-icon"
 							width="20px"
 							height="20px"
@@ -56,7 +62,7 @@ template.innerHTML = `
 
 					<div class="twitter socials__info">
 						<img
-							src="/icon-twitter.svg"
+							src=${twitter}
 							alt="twitter-icon"
 							width="20px"
 							height="16.25px"
@@ -66,7 +72,7 @@ template.innerHTML = `
 
 					<div class="company socials__info">
 						<img
-							src="/icon-company.svg"
+							src=${company}
 							alt="company-icon"
 							width="20px"
 							height="20px"

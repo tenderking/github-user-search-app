@@ -1,8 +1,9 @@
+import searchIcon from "../assets/icon-search.svg";
 const template = document.createElement("template");
 template.innerHTML = `
 <div class="search-container"> 
 <img
-src="/icon-search.svg"
+src=${searchIcon}
 alt="company-icon"
 width="20px"
 height="20px"
