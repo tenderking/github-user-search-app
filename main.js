@@ -71,6 +71,8 @@ async function fetchData(username) {
 				weekday: "short",
 				year: "numeric",
 			})}`;
+			const imgUrl = data.avatar_url;
+			document.getElementById("avatar").src = imgUrl;
 
 			if (data.bio) {
 				document.querySelector(".bio").innerHTML = ` ${data.bio}`;
@@ -104,7 +106,7 @@ searchButton.addEventListener("click", function () {
 	fetchData(searchInput);
 });
 const searchInput = document.querySelector(".search-input");
-searchInput.addEventListener("keypress ||click", function (event) {
+searchInput.addEventListener("keypress", function (event) {
 	document.getElementById("on-empty").classList.remove("show");
 	document.getElementById("on-error").classList.remove("show");
 	let searchInput = document.getElementById("search-input").value;

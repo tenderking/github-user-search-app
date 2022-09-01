@@ -5,14 +5,14 @@ template.innerHTML = `
   <div id="toggle-btn" class="toggle-btn" >
     <p id="toggle-text"> Dark</p>
     <img
-							src="./assets/icon-moon.svg"
+							src="/icon-moon.svg"
 							alt="moon-icon"
 							width="20px"
               id="light-theme-icon"
 						
 						/>
     <img
-							src="./assets/icon-sun.svg"
+							src="/icon-sun.svg"
 							alt="sun-icon"
 							width="20px"
 							height="16.25px"

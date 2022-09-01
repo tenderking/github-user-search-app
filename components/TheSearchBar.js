@@ -2,7 +2,7 @@ const template = document.createElement("template");
 template.innerHTML = `
 <div class="search-container"> 
 <img
-src="./assets/icon-search.svg"
+src="/icon-search.svg"
 alt="company-icon"
 width="20px"
 height="20px"

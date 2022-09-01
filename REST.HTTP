@@ -2,5 +2,5 @@
 GET https://api.github.com/octocat/search
 
 ###
-GET   https://api.github.com/users/api.github.com/octocat
+GET   https://api.github.com/users/tenderking
 Content-Type: application/json

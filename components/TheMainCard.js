@@ -2,7 +2,7 @@ const template = document.createElement("template");
 template.innerHTML = `
 <div id="card-container">
 				<div class="header-container">
-					<img src="./assets/avatar.svg" alt="avatar" class="avatar" />
+					<img src="/avatar.svg" alt="avatar" id="avatar" class="avatar" />
 					<div class="header-details">
 						<div class="user-details">
 							<h1 class="user-title">The Octocat</h1>
@@ -35,7 +35,7 @@ template.innerHTML = `
 				<div class="socials">
 					<div class="location socials__info">
 						<img
-							src="./assets/icon-location.svg"
+							src="/icon-location.svg"
 							alt="location-icon"
 							width="13.75px"
 							height="20px"
@@ -45,17 +45,18 @@ template.innerHTML = `
 
 					<div class="website socials__info">
 						<img
-							src="./assets/icon-website.svg"
+							src="/icon-website.svg"
 							alt="website-icon"
 							width="20px"
 							height="20px"
+							
 						/>
 						<a  id="github-link" href="#">github</a>
 					</div>
 
 					<div class="twitter socials__info">
 						<img
-							src="./assets/icon-twitter.svg"
+							src="/icon-twitter.svg"
 							alt="twitter-icon"
 							width="20px"
 							height="16.25px"
@@ -65,7 +66,7 @@ template.innerHTML = `
 
 					<div class="company socials__info">
 						<img
-							src="./assets/icon-company.svg"
+							src="/icon-company.svg"
 							alt="company-icon"
 							width="20px"
 							height="20px"
